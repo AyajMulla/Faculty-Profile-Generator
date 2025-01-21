@@ -1,1 +1,1 @@
-# FacultyPprofile-Generator
+# Faculty Profile-Generator
