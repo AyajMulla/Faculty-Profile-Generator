@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Faculty Profile Generator</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+        }
+
+        header {
+            background: #161b22;
+            color: #58a6ff;
+            padding: 1.5rem 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        header .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 600;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        nav ul li a {
+            color: #58a6ff;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #1f6feb;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #161b22, #0d1117);
+            text-align: center;
+            padding: 6rem 1rem;
+        }
+
+        .hero h2 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: #58a6ff;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            color: #8b949e;
+        }
+
+        .hero a {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: #238636;
+            color: white;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .hero a:hover {
+            background: #2ea043;
+        }
+
+        section {
+            padding: 3rem 1rem;
+        }
+
+        .features {
+            background: #161b22;
+            padding: 3rem 0;
+        }
+
+        .features .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .features .feature {
+            background: #21262d;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .features .feature:hover {
+            transform: translateY(-10px);
+        }
+
+        .features .feature h3 {
+            color: #58a6ff;
+            margin-bottom: 1rem;
+        }
+
+        .features .feature p {
+            color: #8b949e;
+        }
+
+        .how-it-works {
+            background: #0d1117;
+            color: #c9d1d9;
+        }
+
+        .how-it-works ol {
+            max-width: 800px;
+            margin: 0 auto;
+            padding-left: 1.5rem;
+            list-style: decimal;
+        }
+
+        footer {
+            background: #161b22;
+            color: #8b949e;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        footer a {
+            color: #58a6ff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        footer a:hover {
+            color: #1f6feb;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">AI Faculty Profile Generator</h1>
+            <nav>
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Transform Faculty Profiles with AI</h2>
+            <p>Effortlessly design and customize academic profiles with cutting-edge AI.</p>
+            <a href="signup.php">Get Started</a>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <div class="feature">
+                <h3>Advanced Templates</h3>
+                <p>Choose from sleek, modern designs tailored for academia.</p>
+            </div>
+            <div class="feature">
+                <h3>AI Recommendations</h3>
+                <p>Highlight achievements with smart, data-driven suggestions.</p>
+            </div>
+            <div class="feature">
+                <h3>Seamless Export</h3>
+                <p>Download profiles in multiple formats with a single click.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2>How It Works</h2>
+            <ol>
+                <li>Sign up and log in to your account.</li>
+                <li>Enter your academic and professional details.</li>
+                <li>Preview and refine your profile with AI-driven insights.</li>
+                <li>Export or share your profile instantly.</li>
+            </ol>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 AI Faculty Profile Generator. For support, contact <a href="ayajmulla2341@gmail.com">support@aifacultygen.com</a>.</p>
+        </div>
+    </footer>
+</body>
+</html>
